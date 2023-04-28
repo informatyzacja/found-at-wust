@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "uvicorn main:app --reload"
+  },
+  "packageManager": "pnpm@8.3.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/informatyzacja/found-at-wust.git"
+  },
+  "author": {
+    "name": "Michał Korczak",
+    "url": "https://omikor.in"
+  },
+  "maintainers": [
+    {
+      "name": "Michał Korczak",
+      "url": "https://omikor.in"
+    },
+    {
+      "name": "Michał Zychowicz"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/informatyzacja/found-at-wust/issues"
+  },
+  "homepage": "https://github.com/informatyzacja/found-at-wust#readme",
+  "engines": {
+    "node": "20.0.0"
+  },
+  "volta": {
+    "node": "20.0.0"
+  }
+}
