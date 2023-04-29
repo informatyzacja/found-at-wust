@@ -50,3 +50,9 @@ node_modules
 .env
 logs/
 postgres-data/
+
+############################
+# PyCharm (IDE)
+############################
+
+.idea
