@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 
 
-load_dotenv()
+load_dotenv(override=True)
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
@@ -52,5 +52,4 @@ async def shutdown():
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
-
+    return {"Hello": os.getenv("DATABASE_URL")}
