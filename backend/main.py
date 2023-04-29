@@ -52,4 +52,4 @@ async def shutdown():
 
 @app.get("/")
 def read_root():
-    return {"Hello": os.getenv("DATABASE_URL")}
+    return {"Hello": "wordl"}
